@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <title>HomePage</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 ms-3 text-white" href="#">IngfoMIN</a>
+          <button class="navbar-toggler me-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-3 text-white fs-5" href="#Home">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 text-white fs-5" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 text-white fs-5" href="#developer">Developer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 text-white fs-5" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section id ="Home" class="bg-primary text-white p-5 p-lg-0 pt-md-3 text-center text-sm-s">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="jumbotron">
+                    <h1>Selamat Datang!</h1>
+                    <p class="lead my-4">Di Website di mana keingitahuanmu terjawab</p>
+                    <button class="btn btn-light btn-lg" href="#">Let's <b>GO</b></button>
+                </div>
+                <img src="./flamenco-searching.png" class="img-fluid w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+    <section id="tentang" class=" py-5 p-5 p-lg-0 pt-md-3 text-center text-sm-s">
+        <div class="container">
+          <div class="row d-sm-flex align-items-center justify-content-between">
+            <div class="col-lg-6">
+              <h2>Tentang Website</h2>
+              <p class="lead my-4">
+                Website ini dibuat untuk kalian yang ingin mengetahui tentang sebuah negara,kota,maupun mitos di suatu negara.
+            </div>
+            <div class="col-lg-6">
+                <img src="./flamenco-brainstorm.png">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="developer" class="bg-primary text-white py-5">
+        <div class="container">
+          <h2 class="text-center">Tentang Developer</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="./flamenco-come-back-later.png" alt="Foto Developer" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <p>
+                Halo perkenalkan nama lengkapku Arik Saputra Misnanto biasa dipanggil Arik Hehehe! :)
+              </p>
+              <p>
+                Kebetulan karena aku suka tentang geografi, makanya aku ingin membuat sebuah website dimana si website ini aku buat untuk mengetahui tentang sebuah negara, jadi jika kalian ingin mengetahui tentang sebuah negara yuk mampir kesini hehehe!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>      
+    <section id="kontak" class="py-5">
+        <div class="container">
+        <h2 class="text-center">Hubungi Kami</h2>
+        <div class="row">
+            <div class="col-lg-6">
+            <form>
+                <div class="mb-3">
+                <label for="nama" class="form-label">Nama Anda</label>
+                <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                <label for="email" class="form-label">Email Anda</label>
+                <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan Anda</label>
+                <textarea class="form-control" id="pesan" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+            </div>
+            <div class="col-lg-6">
+            <p>
+                Untuk pertanyaan atau informasi lebih lanjut, silakan hubungi kami melalui formulir kontak di samping atau menggunakan informasi kontak di bawah ini.
+            </p>
+            <address>
+                <strong>Alamat :</strong><br>
+                Jalan Contoh No. 123<br>
+                Kota Bandung, 12345
+            </address>
+            <p>
+                <strong>Email:</strong> rikgregor0@gmail.com<br>
+                <strong>Telepon:</strong> +123-456-7890
+            </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+          <p>&copy; 2023 IngfoMIN. Cocopyrightan.</p>
+        </div>
+      </footer>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
