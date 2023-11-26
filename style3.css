@@ -7,8 +7,6 @@ body {
     background: white;
 }
 
-
-
 .navbar {
     padding: 0;
 }
@@ -17,4 +15,19 @@ body {
 }
 nav .nav-item a:hover{
     color: blue !important
+}
+
+.feature-box {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.feature-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
